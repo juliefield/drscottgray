@@ -14,6 +14,9 @@
 .columnRight LI{
 	margin-bottom: 1.5em;	
 }
+a:link {
+	color:#A67563;
+	}
 </style>
 </head>
 

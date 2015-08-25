@@ -34,6 +34,13 @@
 	margin-left: 15px;	
 }
 
+ul li a , a:link {
+	color:#A67563;
+	}
+ul li {
+	margin-bottom:8px;
+	}	
+
 </style>
 </head>
 
@@ -47,7 +54,7 @@
     	<div class="column columnLeft">
 			<p>To assist new patients in completing the required forms, we have posted them on our website.  Please download and complete each form, and bring them with you to your next visit. You may also fax or email them to us. (Find our contact information <a href="http://www.drscottgray.com/contact.php">here</a>.)</p>
 			<ul>
-				<li><a href="http://drscottgray.com/forms/NOPP_statement.pdf">Notice of Privacy Practises (NOPP) Statement</a></li> 
+				<li><a href="http://drscottgray.com/forms/NOPP_statement.pdf">Notice of Privacy Practices (NOPP) Statement</a></li> 
 				<li><a href="http://drscottgray.com/forms/NOPP_Acknowledgement.pdf">Acknowledgement of Receipt of NOPP Statement</a></li>				
                 <li><a href="http://drscottgray.com/forms/Patient_Registration.pdf">New Patient Registration Form</a></li>
                 <li><a href="http://drscottgray.com/forms/Health_History.pdf">Health History</a></li>
