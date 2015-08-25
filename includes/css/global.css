@@ -1,0 +1,168 @@
+/*
+COLORS:
+Light Blue: #b1bec6
+Dark Brown: #584547
+*/
+
+
+/*Global Reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/*Element Overrides*/
+BODY{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	background:url(../../images/global/bg_tile.gif) repeat;
+}
+
+/*Main Content*/
+.centerContainer{
+	margin: 0 auto;
+	width: 942px;
+	background: #FFF;
+}
+
+.masthead{
+	position: relative;
+	background:url(../../images/global/header_bkg.gif) repeat-x;
+	height: 122px;
+}
+.masthead #newPatient{
+	position: absolute;
+	left: 770px;
+	top: 0px;
+}
+.masthead .outsideEdge{
+	position: absolute;
+	top: 0px;
+}
+.masthead #edgeLeft{
+	left: -15px;
+}
+.masthead #edgeRight{
+	left: 942px;
+}
+
+.navigation{
+	height: 30px;
+}
+.navigation UL{
+	list-style: none;
+	clear: right;
+}
+.navigation UL LI{
+	float: left;
+}
+
+.content{
+	padding-bottom: 15px;
+	color: #2d2d2c;
+	font-size: .9em;
+}
+.content .heroShot{
+	padding-bottom: 20px;
+}
+.content .column{ 
+	display: block; 
+	width: 44%;
+}
+.content .columnLeft{
+	float: left;
+	padding-left: 35px;
+}
+.content .columnRight{
+	float: right;
+	text-align: left;
+	padding-right: 17px;
+}
+
+.content P{
+	margin-bottom: 1em;
+	line-height: 1.2em;
+}
+
+.content .headline{
+	margin-bottom: 1.3em;	
+}
+
+.doubleColumn{
+	clear: both;
+	padding: 0 17px 0 35px;	
+}
+
+.punchupContainer{
+	background:#e4e1d9;
+}
+
+.footer{
+	border-top: 15px solid #b1bec6;
+	background: #584547;
+	height: 119px;
+	color: #FFF;
+	font-size: 0.7em;
+	line-height: 1.7em;
+}
+.footer .footerCentering{
+	margin: 0 auto;
+	width: 890px;
+	padding: 19px 30px 0;
+}
+.footer .column{width:45%;}
+.footer .columnLeft{
+	float: left;
+}
+.footer .columnRight{
+	float: right;
+	text-align: right;
+	padding-top: 9px;
+}
+
+/*Utility Classes*/
+.clear{clear:both;}
+.floatLeft{float:left;}
+.floatRight{float:right;}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+
