@@ -51,7 +51,7 @@
 			
 		</div>
 		
-		<p class="doubleColumn">Our office is a preferred provider with Superior Dental Care, and a premier provider with Delta Dental. We can submit to most other dental insurance plans as an out-of-network provider. We accept VISA, Mastercard, Discover and CareCredit.</p>
+		<p class="doubleColumn">Our office is a preferred provider with Superior Dental Care, Cigna, and a premier provider with Dental Dental. We can submit to most other dental insurance plans as an out-of-network provider. We accept VISA, Mastercard, Discover and CareCredit.</p>
     </div>
 
 <?php include('includes/php/footer.inc.php'); ?>
